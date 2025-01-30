@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="TU2.0" id="id-db870c49dd1c4382a727a5907f5d76fb" version="5.0.0">
-  <folder name="Strategy" id="id-88cff07fd83b4d779af29d6f7a83aaf6" type="strategy"/>
+  <folder name="Strategy" id="id-88cff07fd83b4d779af29d6f7a83aaf6" type="strategy">
+    <element xsi:type="archimate:Resource" name="It - Hard and Software" id="id-dcbdcf9e22a740d9aeb7feeabfb6be41"/>
+    <element xsi:type="archimate:Capability" name="Providing the It infrastructure" id="id-662cb1a340e045698cce66806e381763"/>
+    <element xsi:type="archimate:CourseOfAction" name="Implementing Ai tools" id="id-4078337406dc40b492c0d08709ec4161"/>
+    <element xsi:type="archimate:Resource" name="Professors" id="id-8ec2f24ada4645d4a12af89c16c204b5"/>
+    <element xsi:type="archimate:Resource" name="IT department" id="id-7ebc9428d8434479bfc2f37068c3dc84"/>
+    <element xsi:type="archimate:Resource" name="Funding" id="id-bcadbff5856a46c4930e3ec4163a3972"/>
+    <element xsi:type="archimate:Capability" name="Creating and practicing learning content for AI" id="id-32b5639a76e748c4ba0b3697bf5c01de"/>
+    <element xsi:type="archimate:Capability" name="Adapt the course structure" id="id-3005ee32aa85430f892ec396da006780"/>
+  </folder>
   <folder name="Business" id="id-614184259dff43c0a7f7accccc8035af" type="business">
     <element xsi:type="archimate:BusinessObject" name="Business Object" id="id-69a526502f3f415f82e766adf704755f"/>
   </folder>
@@ -120,7 +129,32 @@
         <bounds x="620" y="530" width="139" height="58"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="1-Strategy" id="id-837d2cfab8984a73989c653a9d425f95"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="1-Strategy" id="id-837d2cfab8984a73989c653a9d425f95">
+      <child xsi:type="archimate:DiagramObject" id="id-1b8761b21ab447468dc19b6e5896d2c9" archimateElement="id-dcbdcf9e22a740d9aeb7feeabfb6be41">
+        <bounds x="225" y="134" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-014355c07d8f4de3946e2a64d011972e" archimateElement="id-662cb1a340e045698cce66806e381763">
+        <bounds x="218" y="240" width="133" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ac37f57f64e14154a54052644f56abc9" archimateElement="id-4078337406dc40b492c0d08709ec4161">
+        <bounds x="360" y="480" width="136" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8b205ed50da04b528ee2e64832c6d3ea" archimateElement="id-8ec2f24ada4645d4a12af89c16c204b5">
+        <bounds x="528" y="134" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-6c7cfa0efa4c483ca8a38cad0c786ae1" archimateElement="id-7ebc9428d8434479bfc2f37068c3dc84">
+        <bounds x="852" y="134" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2eb6dc63d86e4a3e93cfc86b8cc4034f" archimateElement="id-bcadbff5856a46c4930e3ec4163a3972">
+        <bounds x="1080" y="134" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7091e149dc6b4bdaac70796e14f92241" archimateElement="id-32b5639a76e748c4ba0b3697bf5c01de">
+        <bounds x="432" y="235" width="144" height="66"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d39e2b88ea3946ad866ee81874fbb01c" archimateElement="id-3005ee32aa85430f892ec396da006780">
+        <bounds x="624" y="240" width="120" height="55"/>
+      </child>
+    </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="2-Business" id="id-886adc5b9a894e21806e6036854b7bfb"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="3-Application" id="id-a98a68c8fd9e49698de56da79d788c41"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="4-Technology" id="id-ef9c0745349f4fa5a23c334de19238e2"/>
