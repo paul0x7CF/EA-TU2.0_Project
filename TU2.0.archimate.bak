@@ -29,7 +29,13 @@
     <element xsi:type="archimate:BusinessProcess" name="Human Check" id="id-1bdfe1d670ec49908a40ec306cfc494b"/>
     <element xsi:type="archimate:BusinessProcess" name="Send Feedback" id="id-20a78af7f5fa42b8911567d0a0bb123c"/>
   </folder>
-  <folder name="Application" id="id-f7cb4b84fb0646868ae112e0053fbd55" type="application"/>
+  <folder name="Application" id="id-f7cb4b84fb0646868ae112e0053fbd55" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="AI Learning Assistant" id="id-447536f9e50f482c8596b3e1df4c0ad1"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Chatbot System" id="id-07dcbf19b5f541a08dfa5f771c334f03"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Automated Grading System" id="id-6ae60ec9d02c424e9ad8dfaed47101b3"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-f5259fc7ba08441d93102958a2cd5490"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Recommendation Engine" id="id-453344b9617e44ddb2eac3e064bd7081"/>
+  </folder>
   <folder name="Technology &amp; Physical" id="id-b48eeab8f4aa42bb8d770f4de011e672" type="technology"/>
   <folder name="Motivation" id="id-df155927a66c4859b056e05502b956cf" type="motivation">
     <element xsi:type="archimate:Stakeholder" name="Students" id="id-920221fbc8d546a9a880113a1ae2f0c5"/>
@@ -274,7 +280,20 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-f635395936e84880bd869d223d9f1e28" source="id-b554b71b82174e7897e388f28fc75d23" target="id-ac6bdabdf17945cd9d66015bcd2e8253" archimateRelationship="id-9aaa15d637544815b7d23c4aec2d9b32"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="3-Application" id="id-a98a68c8fd9e49698de56da79d788c41"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="3-Application" id="id-a98a68c8fd9e49698de56da79d788c41">
+      <child xsi:type="archimate:DiagramObject" id="id-0344b14052ac4aa3beab314f0d3d61a3" archimateElement="id-447536f9e50f482c8596b3e1df4c0ad1">
+        <bounds x="61" y="29" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c7d1ac8db88945d4b03a97b7e4feb7d4" archimateElement="id-07dcbf19b5f541a08dfa5f771c334f03">
+        <bounds x="216" y="29" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-55298db2014a487c92d6bb23476bdd2f" archimateElement="id-6ae60ec9d02c424e9ad8dfaed47101b3">
+        <bounds x="372" y="29" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1ce4fe1fbd6843668998709a45ef85d1" archimateElement="id-453344b9617e44ddb2eac3e064bd7081">
+        <bounds x="528" y="29" width="120" height="55"/>
+      </child>
+    </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="4-Technology" id="id-ef9c0745349f4fa5a23c334de19238e2"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5-Physical" id="id-cf1cfd3c8c104b81b82e0574c0d9e3f0"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="6-Migration" id="id-e1c6e228e5714dbdaaac8b66d5891561"/>

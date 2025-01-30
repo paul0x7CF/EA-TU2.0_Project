@@ -44,7 +44,7 @@
     <element xsi:type="archimate:Stakeholder" name="University administration" id="id-79f1953235774047aefef28bfdac41c5"/>
     <element xsi:type="archimate:Goal" name="Improve Student success" id="id-e516756d6e874e678f6cc6939838e7b6"/>
     <element xsi:type="archimate:Goal" name="Improving teaching efficiency" id="id-7e5036bd98fe4a6dba145ed93d982f78"/>
-    <element xsi:type="archimate:Goal" name="Reduce emploee costs" id="id-a5297dd46de34c3890a703119545df47"/>
+    <element xsi:type="archimate:Goal" name="Reduce employee costs" id="id-a5297dd46de34c3890a703119545df47"/>
     <element xsi:type="archimate:Principle" name="Principle" id="id-36d53110412f4c0bae354fe02b0c9de5"/>
     <element xsi:type="archimate:Requirement" name="Requirement" id="id-c8044dca3bbc43389b27888b590d427f"/>
     <element xsi:type="archimate:Goal" name="Reducing the administrative workload for professors" id="id-37963150649b483b8132675f78bd24f3"/>
@@ -60,7 +60,7 @@
     <element xsi:type="archimate:Driver" name="Teaching method" id="id-29a5d0255f04416ba9b1bb14fba98afb"/>
     <element xsi:type="archimate:Assessment" name="False information from external sources" id="id-0c2fccadecda4b62899df2a94b7822ac"/>
     <element xsi:type="archimate:Assessment" name="Rapid further development of Ai systems " id="id-88e2771edfba4162888f14431117a243"/>
-    <element xsi:type="archimate:Assessment" name="Different learning types, speeds and expirence" id="id-703b7800bd2b43b59dbfe26edcaa240c"/>
+    <element xsi:type="archimate:Assessment" name="Different learning types, speeds and experience" id="id-703b7800bd2b43b59dbfe26edcaa240c"/>
     <element xsi:type="archimate:Driver" name="Costs" id="id-0e4b67d314ed4adaba528b43ec8985d1"/>
     <element xsi:type="archimate:Driver" name="Time" id="id-e155e580de5440cf9d99a2fabd48008f"/>
     <element xsi:type="archimate:Assessment" name="High time effort of assistants in courses " id="id-f735d9bcc0d841fa98c0ef80fce7fc3b"/>
@@ -142,7 +142,7 @@
         <bounds x="162" y="174" width="119" height="43"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-ce95aa8193894dbd8609ce74c8364dcf" archimateElement="id-d768861b9f59466e946a634b9faea2bd">
-        <bounds x="1058" y="183" width="120" height="55"/>
+        <bounds x="1058" y="183" width="131" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-493c84353e8945148422a4d76119e20b" archimateElement="id-29a5d0255f04416ba9b1bb14fba98afb">
         <bounds x="386" y="171" width="132" height="61"/>
