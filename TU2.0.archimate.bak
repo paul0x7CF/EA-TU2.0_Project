@@ -1105,15 +1105,7 @@
         </child>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="5-Physical" id="id-cf1cfd3c8c104b81b82e0574c0d9e3f0">
-      <child xsi:type="archimate:DiagramObject" id="id-aa181b5f2d354c92955a14052491281a" archimateElement="id-d72e631efb264e4f8f59cfc65ba85cbe">
-        <bounds x="516" y="180" width="420" height="245"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-9b51790a1011435d9b88a4ebf8758859" source="id-aa181b5f2d354c92955a14052491281a" target="id-14546d459fcb4ba3b1225747286a7261" archimateRelationship="id-7902d9218117460fae4963f9841a815d"/>
-        <child xsi:type="archimate:DiagramObject" id="id-14546d459fcb4ba3b1225747286a7261" targetConnections="id-9b51790a1011435d9b88a4ebf8758859" archimateElement="id-f95f5285ec764448b954cbc54a00fbec">
-          <bounds x="72" y="96" width="120" height="55"/>
-        </child>
-      </child>
-    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="5-Physical" id="id-cf1cfd3c8c104b81b82e0574c0d9e3f0"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="6-Migration" id="id-e1c6e228e5714dbdaaac8b66d5891561"/>
   </folder>
 </archimate:model>
