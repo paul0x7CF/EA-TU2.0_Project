@@ -144,6 +144,10 @@
     <element xsi:type="archimate:ApplicationFunction" name="Data input processing" id="id-9a37e186e32c4b138806b21cbba152fa"/>
     <element xsi:type="archimate:ApplicationFunction" name="Generate content for student" id="id-dc796f3293ef4542b447223e275c0bb2"/>
     <element xsi:type="archimate:ApplicationService" name="AI tutoring system" id="id-3f75ddccf80a451e86ae6df448f49af3"/>
+    <element xsi:type="archimate:ApplicationComponent" name="AI Learning Assistant" id="id-9cf3d8c70e8b476680e2c8b0bf91b02b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Intelligent AI tutoring system" id="id-1158efb04e064542a0b290c90796a7b7"/>
+    <element xsi:type="archimate:ApplicationComponent" name="ECM-System" id="id-041dc3a8c28b4c68a235408375fe25cd"/>
+    <element xsi:type="archimate:ApplicationComponent" name="AI Training Platform" id="id-775a7ad5bfef4e0abfffb7bfebd8878b"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-b48eeab8f4aa42bb8d770f4de011e672" type="technology">
     <element xsi:type="archimate:Node" name="AI Server" id="id-587fd7df4e6e46cba7ec1e0f3e94c11b"/>
@@ -487,6 +491,10 @@
     <element xsi:type="archimate:TriggeringRelationship" id="id-a1959e43e47b45c3be8850901e3ccdad" source="id-ea8f824d172e432496f07d7270a66541" target="id-a586b169743b430c9839a2b1c8a61b2a"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-a66fde2133524cf092e641bf6e0da829" source="id-92c9acd7217d425dac0635ba8d833a90" target="id-6f151fd551a44252a3e5720c3c56175a"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-f98f7d6ceec549f78d3831741e66fd90" source="id-92c9acd7217d425dac0635ba8d833a90" target="id-15e00ee643834677b443dd91aaac8835"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-cca2c1c7bf7b4facafb37772844fb497" source="id-536167f6314a4fb6b821bd721e56d3ee" target="id-9cf3d8c70e8b476680e2c8b0bf91b02b"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-6583cd278d9641b798cc9e63873368a1" source="id-536167f6314a4fb6b821bd721e56d3ee" target="id-1158efb04e064542a0b290c90796a7b7"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-9453c45380924309ab122d27c5b060aa" source="id-536167f6314a4fb6b821bd721e56d3ee" target="id-041dc3a8c28b4c68a235408375fe25cd"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-6cf8747dcd81433aa3f5d9ec4068dd1a" source="id-536167f6314a4fb6b821bd721e56d3ee" target="id-775a7ad5bfef4e0abfffb7bfebd8878b"/>
   </folder>
   <folder name="Views" id="id-dce0a67fbfe44e2089dabb183efa9e2a" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="0-Motivation" id="id-dfa7f1a13f4146509011f7b2327dc1ca">
@@ -1299,7 +1307,23 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-a7571c35057c4f95811e3f50231fed3d" source="id-986ced60ba4d41a6b4be5cae0c6e27d7" target="id-a0b35d67e3ee47288fc37fdb64c0fb1d" archimateRelationship="id-9e7708cd50d64e8688a010edc84e917f">
             <bendpoint startX="432" startY="-3" endX="-3" endY="-63"/>
           </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-225f1b6d769445d29086449ecfbf1be4" source="id-986ced60ba4d41a6b4be5cae0c6e27d7" target="id-bf0adcec622b4a4f93647ae649d92edc" archimateRelationship="id-cca2c1c7bf7b4facafb37772844fb497"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-50162c553b464b6e9d20ea25c4c9b0bc" source="id-986ced60ba4d41a6b4be5cae0c6e27d7" target="id-ab2bf665a3264b489287a89cb5b43671" archimateRelationship="id-6583cd278d9641b798cc9e63873368a1"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0e57ea2f68ff45788c26b0867bebc6ff" source="id-986ced60ba4d41a6b4be5cae0c6e27d7" target="id-58f7a675828d447eb7674be884b84b61" archimateRelationship="id-9453c45380924309ab122d27c5b060aa"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-aef196acecdd4651a7e2ae01a22d68eb" source="id-986ced60ba4d41a6b4be5cae0c6e27d7" target="id-fd1da44aa2724aa5b31ef8e391d63b83" archimateRelationship="id-6cf8747dcd81433aa3f5d9ec4068dd1a"/>
         </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bf0adcec622b4a4f93647ae649d92edc" targetConnections="id-225f1b6d769445d29086449ecfbf1be4" archimateElement="id-9cf3d8c70e8b476680e2c8b0bf91b02b">
+        <bounds x="204" y="756" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-ab2bf665a3264b489287a89cb5b43671" targetConnections="id-50162c553b464b6e9d20ea25c4c9b0bc" archimateElement="id-1158efb04e064542a0b290c90796a7b7">
+        <bounds x="420" y="756" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-58f7a675828d447eb7674be884b84b61" targetConnections="id-0e57ea2f68ff45788c26b0867bebc6ff" archimateElement="id-041dc3a8c28b4c68a235408375fe25cd">
+        <bounds x="660" y="756" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-fd1da44aa2724aa5b31ef8e391d63b83" targetConnections="id-aef196acecdd4651a7e2ae01a22d68eb" archimateElement="id-775a7ad5bfef4e0abfffb7bfebd8878b">
+        <bounds x="936" y="756" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="5-Physical" id="id-cf1cfd3c8c104b81b82e0574c0d9e3f0"/>
