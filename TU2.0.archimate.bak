@@ -208,7 +208,7 @@
     <element xsi:type="archimate:Driver" name="Future teaching method" id="id-29a5d0255f04416ba9b1bb14fba98afb"/>
     <element xsi:type="archimate:Assessment" name="False information from external sources" id="id-0c2fccadecda4b62899df2a94b7822ac"/>
     <element xsi:type="archimate:Assessment" name="Different learning types, speeds and experience" id="id-703b7800bd2b43b59dbfe26edcaa240c"/>
-    <element xsi:type="archimate:Driver" name="Costs and time efficiency" id="id-0e4b67d314ed4adaba528b43ec8985d1"/>
+    <element xsi:type="archimate:Driver" name="Cost and time efficiency" id="id-0e4b67d314ed4adaba528b43ec8985d1"/>
     <element xsi:type="archimate:Assessment" name="High time effort of teaching staff for courses " id="id-f735d9bcc0d841fa98c0ef80fce7fc3b"/>
     <element xsi:type="archimate:Assessment" name="High employee costs, room reservation " id="id-fbd8350c61a541038b1affbe57f99ff1"/>
     <element xsi:type="archimate:Outcome" name="Teaching staff has more time to focus on core research work" id="id-f2b7409f8ad0462d9840efe7d00d8bd4"/>
@@ -496,6 +496,7 @@
     <element xsi:type="archimate:RealizationRelationship" id="id-86f6446a930e4f65aaf6ac73732fa4e1" source="id-590bbf09adbb4ea9bf2c5353b7bcc08a" target="id-8354e3fdb6e94f2dbb62e0352f7b4fd2"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-be68d6d77f5e4635a78613e7a98c6be9" source="id-b82b6ba8772a4338a0bb70aab6c308ce" target="id-ffc295bb629c4172b6febca407460bff"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-a0560f58403c41369016a42abfbfbd82" source="id-dcbdcf9e22a740d9aeb7feeabfb6be41" target="id-af09a97296de4b7e9f26b44601c8878a"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-a2d82fab58e34568a69c68451338ffda" source="id-b82b6ba8772a4338a0bb70aab6c308ce" target="id-29a5d0255f04416ba9b1bb14fba98afb"/>
   </folder>
   <folder name="Views" id="id-dce0a67fbfe44e2089dabb183efa9e2a" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="0-Motivation" id="id-dfa7f1a13f4146509011f7b2327dc1ca">
@@ -533,7 +534,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-26ea6a204b934d0d99bcbfb146342854" archimateElement="id-4ec2457cc53e405790825b33cf0032d1">
         <bounds x="1070" y="672" width="120" height="55"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-493c84353e8945148422a4d76119e20b" targetConnections="id-03a50275da2247978b177fe44a02f784" archimateElement="id-29a5d0255f04416ba9b1bb14fba98afb">
+      <child xsi:type="archimate:DiagramObject" id="id-493c84353e8945148422a4d76119e20b" targetConnections="id-03a50275da2247978b177fe44a02f784 id-26d1d27a8dee43129d46c0cdcf979f17" archimateElement="id-29a5d0255f04416ba9b1bb14fba98afb">
         <bounds x="666" y="168" width="132" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a7c18bba3a5344aeba2327f32cb1b73d" source="id-493c84353e8945148422a4d76119e20b" target="id-4e46b1c5889c478b95ebf18966988fe7" archimateRelationship="id-65aec3f5078d47cf91f3bac1898f70c2"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c84aa30524b542d2bda3f85db7c89ae9" source="id-493c84353e8945148422a4d76119e20b" target="id-29caa8fe32604c39b611214ea4cb6ab1" archimateRelationship="id-c783d1f5220f4cd7baa4f2c0c94b80a0"/>
@@ -607,6 +608,7 @@
       <child xsi:type="archimate:DiagramObject" id="id-b34a2f985e5c4f49a92ee7ab47bdee81" archimateElement="id-b82b6ba8772a4338a0bb70aab6c308ce">
         <bounds x="950" y="60" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f88a0e20ac844fa68fc7f11bc5fb13b7" source="id-b34a2f985e5c4f49a92ee7ab47bdee81" target="id-44edd0290e704dfc9169470e870f8a2f" archimateRelationship="id-be68d6d77f5e4635a78613e7a98c6be9"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-26d1d27a8dee43129d46c0cdcf979f17" source="id-b34a2f985e5c4f49a92ee7ab47bdee81" target="id-493c84353e8945148422a4d76119e20b" archimateRelationship="id-a2d82fab58e34568a69c68451338ffda"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="1-Strategy" id="id-837d2cfab8984a73989c653a9d425f95">
