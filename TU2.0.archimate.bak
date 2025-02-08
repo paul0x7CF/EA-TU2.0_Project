@@ -333,6 +333,7 @@
     <element xsi:type="archimate:TechnologyService" name="Database Service" id="id-e9e9ceea0b084c398aa90db087b2d162"/>
     <element xsi:type="archimate:TechnologyFunction" name="Query routing (copy)" id="id-8d04136c015a491b90bda747a3fb597c"/>
     <element xsi:type="archimate:SystemSoftware" name="Open Source LLM " id="id-f8b54e108b6048e1a5354f9c94ae2939"/>
+    <element xsi:type="archimate:TechnologyCollaboration" name="File Storage" id="id-d179405e1c46435dbed26f2338a7c9c4"/>
   </folder>
   <folder name="Motivation" id="id-df155927a66c4859b056e05502b956cf" type="motivation">
     <element xsi:type="archimate:Stakeholder" name="Students" id="id-920221fbc8d546a9a880113a1ae2f0c5"/>
@@ -2641,7 +2642,7 @@
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-43f2de972106433b837e59669aca9240" targetConnections="id-eaf08088a86e4926a158711b9adf2fdf" archimateElement="id-9c77dd3f348b49408d8737f15365764b">
-          <bounds x="219" y="222" width="145" height="193"/>
+          <bounds x="219" y="222" width="145" height="247"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-4fafabebf50e4ff291ed0339d8c2ab26" source="id-43f2de972106433b837e59669aca9240" target="id-9656ddc6dfd94dd09ad4a8e5f63b6444" archimateRelationship="id-6a374a6f5f85451a8dab75fc7eb31754"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-68f6b857491e4f2fbde15b76f6a09197" source="id-43f2de972106433b837e59669aca9240" target="id-df24a40c91a34646bde63de847a2ee19" archimateRelationship="id-b1585b69f20d489ea418955e8c9b7db2"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-aba3a638e1704f418bb0fd0afc4a6c3e" source="id-43f2de972106433b837e59669aca9240" target="id-3601cf5ad0804aeda80102d9ffb5fb29" archimateRelationship="id-c853fa27cd2f4cb0acd22fbe9775547d"/>
@@ -2651,6 +2652,9 @@
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9656ddc6dfd94dd09ad4a8e5f63b6444" targetConnections="id-4fafabebf50e4ff291ed0339d8c2ab26" archimateElement="id-502a74e12fd94b2b974a66150b8f4c91">
             <bounds x="12" y="96" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b2622371678b4d70a712850cb038024b" archimateElement="id-d179405e1c46435dbed26f2338a7c9c4">
+            <bounds x="12" y="168" width="120" height="55"/>
           </child>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-df24a40c91a34646bde63de847a2ee19" targetConnections="id-ad24361a081e489d8839a578c59d970b id-0575df7a4ec04ad98b556b6704ab4c04 id-68f6b857491e4f2fbde15b76f6a09197 id-a3ad8e7fc67c4de89e0ada4d4a50ec9e" archimateElement="id-53620bfbfcde40afaf6eb54f39d9fde5">
