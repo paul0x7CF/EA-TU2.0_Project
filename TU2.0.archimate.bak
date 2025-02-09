@@ -2693,7 +2693,7 @@
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-88b4491a0e64481e8b8047bb9eb199d1" fillColor="#80ffff" archimateElement="id-0e85c178c0164f62b9ff2e41d96ab1be">
-        <bounds x="384" y="552" width="1273" height="745"/>
+        <bounds x="384" y="552" width="1273" height="697"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-9d4c1074b08440da94b61e495052db1f" source="id-88b4491a0e64481e8b8047bb9eb199d1" target="id-a7a108720ea249d6b87dd45b129b6165" archimateRelationship="id-88a58795fe164fbeb21bd737d6ec7ec2"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-0575df7a4ec04ad98b556b6704ab4c04" source="id-88b4491a0e64481e8b8047bb9eb199d1" target="id-df24a40c91a34646bde63de847a2ee19" archimateRelationship="id-ea671cfbd4b044ad8d67234f3604076f"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-b5b2951b6a2f4cdcac6523a968752894" source="id-88b4491a0e64481e8b8047bb9eb199d1" target="id-74bdd92bcb484a009bf0e67db8ce49cd" archimateRelationship="id-94600aaebd1e4449af2f3feef81c3285"/>

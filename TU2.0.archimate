@@ -358,6 +358,7 @@
     <element xsi:type="archimate:Material" name="Fibre Cable" id="id-bd874ae4953642d7af4849bb3c2392e9"/>
     <element xsi:type="archimate:Equipment" name="Swicth" id="id-8448ea6c17124fc781269559274f4d99"/>
     <element xsi:type="archimate:Material" name="Cat Cable" id="id-99922195476a4aec8815f6c578b5e061"/>
+    <element xsi:type="archimate:SystemSoftware" name="File Storage" id="id-d46840a027864b3d927c38e8476234f6"/>
   </folder>
   <folder name="Motivation" id="id-df155927a66c4859b056e05502b956cf" type="motivation">
     <element xsi:type="archimate:Stakeholder" name="Studenten" id="id-920221fbc8d546a9a880113a1ae2f0c5"/>
@@ -969,6 +970,7 @@
     <element xsi:type="archimate:AssignmentRelationship" id="id-b2184d9083a94b3ab4ee3064d3c087d6" source="id-8448ea6c17124fc781269559274f4d99" target="id-bd874ae4953642d7af4849bb3c2392e9"/>
     <element xsi:type="archimate:AssignmentRelationship" id="id-df9846ac03ba4671838170f291ce200c" source="id-8448ea6c17124fc781269559274f4d99" target="id-99922195476a4aec8815f6c578b5e061"/>
     <element xsi:type="archimate:ServingRelationship" id="id-c88aa200afdc4ad397ce64ac03c318b3" source="id-4a0f6942fbed4d5c9f26dc1d6a423f8e" target="id-aaa363982db04c8faebfdd6e3a037484"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-ce95cea173564d93afee38972949778f" source="id-9c77dd3f348b49408d8737f15365764b" target="id-d46840a027864b3d927c38e8476234f6"/>
   </folder>
   <folder name="Views" id="id-dce0a67fbfe44e2089dabb183efa9e2a" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="0-Motivation" id="id-dfa7f1a13f4146509011f7b2327dc1ca">
@@ -2719,13 +2721,14 @@
             <bendpoint startX="72" startY="279" endX="-135"/>
           </sourceConnection>
           <sourceConnection xsi:type="archimate:Connection" id="id-de19800b20a74968b0a900baff2ae24b" source="id-43f2de972106433b837e59669aca9240" target="id-759ca96fd56741d397f1625c07177f8a" archimateRelationship="id-e8dbb2fe0cae4d78bfeaae8263d8622a"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-81ba9d55f658496793427a0f01667bf2" source="id-43f2de972106433b837e59669aca9240" target="id-950a43d4003c49fe978eda61ccff71ae" archimateRelationship="id-ce95cea173564d93afee38972949778f"/>
           <child xsi:type="archimate:DiagramObject" id="id-759ca96fd56741d397f1625c07177f8a" targetConnections="id-de19800b20a74968b0a900baff2ae24b" fillColor="#80ffff" archimateElement="id-4ca4b7b506624eb7938a303fde84f112">
             <bounds x="12" y="36" width="120" height="49"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9656ddc6dfd94dd09ad4a8e5f63b6444" targetConnections="id-4fafabebf50e4ff291ed0339d8c2ab26" fillColor="#80ffff" archimateElement="id-502a74e12fd94b2b974a66150b8f4c91">
             <bounds x="12" y="96" width="120" height="55"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-b2622371678b4d70a712850cb038024b" fillColor="#80ffff" archimateElement="id-d179405e1c46435dbed26f2338a7c9c4">
+          <child xsi:type="archimate:DiagramObject" id="id-950a43d4003c49fe978eda61ccff71ae" targetConnections="id-81ba9d55f658496793427a0f01667bf2" fillColor="#80ffff" archimateElement="id-d46840a027864b3d927c38e8476234f6">
             <bounds x="12" y="168" width="120" height="55"/>
           </child>
         </child>
