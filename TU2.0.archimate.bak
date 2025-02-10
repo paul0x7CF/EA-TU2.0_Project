@@ -276,10 +276,10 @@
     <element xsi:type="archimate:ApplicationService" name="Vectorization Management" id="id-fc853337e91041018a0ba7f0b04a7e77"/>
     <element xsi:type="archimate:ApplicationComponent" name="Learning Support Chatbot" id="id-49a1d53a201347b9b7f6fa35c83cd02c"/>
     <element xsi:type="archimate:ApplicationProcess" name="Proc" id="id-2c2b9ad4b3d44f809ef4bf5333f9a254"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Learning Support Chatbot" id="id-f5d08596a0e74ff09d064fc1ed2cd60b"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Intelligent AI tutoring System" id="id-5acb28f8fd304fb9bcf4899bc0d7a143"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Knowledge Management" id="id-d08fb6432f474a039224f081132a2502"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Vectorization Management" id="id-cc1349175e5f447d947a8f5e24fa19af"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Lernunterstützungs-Chatbot" id="id-f5d08596a0e74ff09d064fc1ed2cd60b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Intelligentes KI-Lernsystem" id="id-5acb28f8fd304fb9bcf4899bc0d7a143"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Wissensmanagement" id="id-d08fb6432f474a039224f081132a2502"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Vektorisierungs-management" id="id-cc1349175e5f447d947a8f5e24fa19af"/>
     <element xsi:type="archimate:ApplicationComponent" name="TUWEL" id="id-fc42a9101caa4c70a69d4e28c5fef9bb"/>
     <element xsi:type="archimate:ApplicationService" name="TUWEL Service" id="id-3d76ea94fee9475b87edb59e79a4f22c"/>
     <element xsi:type="archimate:ApplicationFunction" name="Give Feedback" id="id-57050a9f8cca4daa9fcf065acff00fd7"/>
@@ -292,42 +292,42 @@
     <element xsi:type="archimate:Node" name="AI Server" id="id-587fd7df4e6e46cba7ec1e0f3e94c11b"/>
     <element xsi:type="archimate:Node" name="TISS server" id="id-590bbf09adbb4ea9bf2c5353b7bcc08a"/>
     <element xsi:type="archimate:Node" name="TUWEL Hosting" id="id-9c77dd3f348b49408d8737f15365764b"/>
-    <element xsi:type="archimate:Node" name="Database server" id="id-f4f4f9e0e16249b6a7ba986514d9a9fc"/>
+    <element xsi:type="archimate:Node" name="Datenbankserver" id="id-f4f4f9e0e16249b6a7ba986514d9a9fc"/>
     <element xsi:type="archimate:SystemSoftware" name="MSSQL" id="id-6846c3de168f49bfacc83cf11c04923b"/>
     <element xsi:type="archimate:TechnologyService" name="Technology Service" id="id-75cd08a6ffa64ac696c2ceac0900acc3"/>
     <element xsi:type="archimate:CommunicationNetwork" name="Communication Network" id="id-bad2b851280c4d7bbb5eb9cad8e87b74"/>
     <element xsi:type="archimate:Path" name="Path" id="id-9eff56d634684f2f833eaa0dc8505fbd"/>
-    <element xsi:type="archimate:CommunicationNetwork" name="Data Center Network" id="id-79e87d04ed404f6e9fcf52a5854651b3"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Rechenzentrums-Netzwerk" id="id-79e87d04ed404f6e9fcf52a5854651b3"/>
     <element xsi:type="archimate:TechnologyService" name="AI Processing Service" id="id-3eef914d409a44538fd5d11ea00027d2"/>
     <element xsi:type="archimate:Facility" name="Facility" id="id-c2e37fb424364fc785987a5a137d6eec"/>
     <element xsi:type="archimate:Facility" name="Data Center" id="id-d72e631efb264e4f8f59cfc65ba85cbe"/>
     <element xsi:type="archimate:Equipment" name="Server" id="id-f95f5285ec764448b954cbc54a00fbec"/>
     <element xsi:type="archimate:CommunicationNetwork" name="Content Delivery Network" id="id-8e41d21534094c7d94e34c0866d0f36a"/>
-    <element xsi:type="archimate:SystemSoftware" name="TUWEL web server" id="id-4ca4b7b506624eb7938a303fde84f112"/>
-    <element xsi:type="archimate:SystemSoftware" name="TUWEL application server" id="id-502a74e12fd94b2b974a66150b8f4c91"/>
-    <element xsi:type="archimate:TechnologyService" name="Knowladge Managment Service" id="id-53620bfbfcde40afaf6eb54f39d9fde5"/>
-    <element xsi:type="archimate:Node" name="Internal AI system" id="id-0c0c3f16d65745279650f974018c6a71"/>
+    <element xsi:type="archimate:SystemSoftware" name="TUWEL-Webserver" id="id-4ca4b7b506624eb7938a303fde84f112"/>
+    <element xsi:type="archimate:SystemSoftware" name="TUWEL-Anwendungs-server" id="id-502a74e12fd94b2b974a66150b8f4c91"/>
+    <element xsi:type="archimate:TechnologyService" name="Wissensmanagement-Dienst" id="id-53620bfbfcde40afaf6eb54f39d9fde5"/>
+    <element xsi:type="archimate:Node" name="Internes KI-System" id="id-0c0c3f16d65745279650f974018c6a71"/>
     <element xsi:type="archimate:Node" name="External LLM AI" id="id-cee55b473244497d9cb5c7bf78d8a0f1"/>
     <element xsi:type="archimate:SystemSoftware" name="NLP components" id="id-0a34476fe88b4eb6bf7462bea94f02ea"/>
-    <element xsi:type="archimate:Node" name="Cloud backend" id="id-ad68f542b74743eba415002d225474cf"/>
+    <element xsi:type="archimate:Node" name="Cloud-Backend" id="id-ad68f542b74743eba415002d225474cf"/>
     <element xsi:type="archimate:TechnologyService" name="Cloud Computing Resource" id="id-4a0f6942fbed4d5c9f26dc1d6a423f8e"/>
-    <element xsi:type="archimate:Node" name="On-prem server" id="id-33047ae70956435f95f8648d67169883"/>
-    <element xsi:type="archimate:TechnologyService" name="AI Backend Server" id="id-180e69d29a8e422d88fae21701329637"/>
-    <element xsi:type="archimate:TechnologyFunction" name="Query processing" id="id-604b791a0dca42f39ea884bc9a963964"/>
-    <element xsi:type="archimate:TechnologyFunction" name="Query routing" id="id-f21dae79501b41efa27462adfc74fbe5"/>
-    <element xsi:type="archimate:TechnologyFunction" name="Content delivery" id="id-99c0cba421e5406a979d9109102b9a54"/>
-    <element xsi:type="archimate:Facility" name="TU Data Center" id="id-0e85c178c0164f62b9ff2e41d96ab1be"/>
+    <element xsi:type="archimate:Node" name="Lokaler Server" id="id-33047ae70956435f95f8648d67169883"/>
+    <element xsi:type="archimate:TechnologyService" name="KI-Backend-Server" id="id-180e69d29a8e422d88fae21701329637"/>
+    <element xsi:type="archimate:TechnologyFunction" name="Abfrage-verarbeitung" id="id-604b791a0dca42f39ea884bc9a963964"/>
+    <element xsi:type="archimate:TechnologyFunction" name="Abfrage-weiterleitung" id="id-f21dae79501b41efa27462adfc74fbe5"/>
+    <element xsi:type="archimate:TechnologyFunction" name="Inhalts-bereitstellung" id="id-99c0cba421e5406a979d9109102b9a54"/>
+    <element xsi:type="archimate:Facility" name="TU-Rechenzentrum" id="id-0e85c178c0164f62b9ff2e41d96ab1be"/>
     <element xsi:type="archimate:Equipment" id="id-5d41e8f801bc4ad3b5479010bf7139fc"/>
     <element xsi:type="archimate:Equipment" name="Equipment" id="id-00d0399e1f1e47f39df2c5a8e8b0aae7"/>
     <element xsi:type="archimate:TechnologyFunction" name="Course Registration Management" id="id-4352d392fa5d431b9e2db041e2bbf6d3"/>
     <element xsi:type="archimate:Node" name="ETL" id="id-5d6a06b01125481c91ff66f396e3eabd"/>
     <element xsi:type="archimate:TechnologyFunction" name="ETL Tool" id="id-a439acf841924e32b882629b1dec7112"/>
     <element xsi:type="archimate:SystemSoftware" name="Data preparation" id="id-0fc8f24b47d048d89ff82f607200778a"/>
-    <element xsi:type="archimate:TechnologyService" name="LLM Service" id="id-959d9f96594e4d0fac45a3a8587333c8"/>
+    <element xsi:type="archimate:TechnologyService" name="Sprachmodell-Dienst" id="id-959d9f96594e4d0fac45a3a8587333c8"/>
     <element xsi:type="archimate:TechnologyFunction" name="Data preparation" id="id-74ec48a209e24d8980a33ea9ec1b8f94"/>
     <element xsi:type="archimate:TechnologyService" name="Technology Service" id="id-2f45f8f60aeb4fd5b3dc63a1f3800653"/>
     <element xsi:type="archimate:TechnologyInterface" name="REST API" id="id-536167f6314a4fb6b821bd721e56d3ee"/>
-    <element xsi:type="archimate:TechnologyFunction" name="Monitoring" id="id-350b86c57fd741469260093e56bf5271"/>
+    <element xsi:type="archimate:TechnologyFunction" name="Resourcen-Überwachung" id="id-350b86c57fd741469260093e56bf5271"/>
     <element xsi:type="archimate:TechnologyService" name="Tiss hosting" id="id-8354e3fdb6e94f2dbb62e0352f7b4fd2"/>
     <element xsi:type="archimate:Node" name="Authetication and authorization server" id="id-b2b09e84455f4e21b5f6105f445c54f2"/>
     <element xsi:type="archimate:SystemSoftware" name="Microsoft Entra ID " id="id-1864e545d9604a2dad27e416913a8e25"/>
@@ -337,15 +337,15 @@
     <element xsi:type="archimate:Node" name="Authetication and authorization server (copy)" id="id-6695d303f6b0440594b0ec54b866f5f3"/>
     <element xsi:type="archimate:SystemSoftware" name="Microsoft Entra ID  (copy)" id="id-606244ef8ff84c10a2588f0da631030d"/>
     <element xsi:type="archimate:TechnologyInterface" name="WebSocket" id="id-3a8188a1208846c384d82138661081ce"/>
-    <element xsi:type="archimate:SystemSoftware" name="Vector Database" id="id-bee75206ee194ac1bd26c61d5514bbd6"/>
+    <element xsi:type="archimate:SystemSoftware" name="Vektordatenbank" id="id-bee75206ee194ac1bd26c61d5514bbd6"/>
     <element xsi:type="archimate:SystemSoftware" name="Vector Database" id="id-330b99cf1d8d42a5b7a9af16edd54ec2"/>
     <element xsi:type="archimate:Node" name="GPU Server" id="id-aaa363982db04c8faebfdd6e3a037484"/>
     <element xsi:type="archimate:SystemSoftware" name="Open Source LLM" id="id-7998666213104fc79e6f797b16c48f6b"/>
     <element xsi:type="archimate:SystemSoftware" name="Vector Database (copy)" id="id-c5f6df461abc4fa5b741868526c34fc0"/>
-    <element xsi:type="archimate:TechnologyService" name="Database Service" id="id-e9e9ceea0b084c398aa90db087b2d162"/>
+    <element xsi:type="archimate:TechnologyService" name="Datenbank-Dienst" id="id-e9e9ceea0b084c398aa90db087b2d162"/>
     <element xsi:type="archimate:TechnologyFunction" name="Query routing (copy)" id="id-8d04136c015a491b90bda747a3fb597c"/>
     <element xsi:type="archimate:SystemSoftware" name="Open Source LLM " id="id-f8b54e108b6048e1a5354f9c94ae2939"/>
-    <element xsi:type="archimate:TechnologyCollaboration" name="File Storage" id="id-d179405e1c46435dbed26f2338a7c9c4"/>
+    <element xsi:type="archimate:TechnologyCollaboration" name="Dateispeicher" id="id-d179405e1c46435dbed26f2338a7c9c4"/>
     <element xsi:type="archimate:TechnologyFunction" name="NLP-processing" id="id-ecf4ef2c351e4969a1d31fd0f04b0432"/>
     <element xsi:type="archimate:TechnologyService" name="Knowledge Managment Sefvice" id="id-bb49ae7f63864a47ac40120f34e88581"/>
     <element xsi:type="archimate:TechnologyProcess" name="Document Insertion" id="id-28fb46c4cbbc42ff9db3341c14c4b550"/>
@@ -355,16 +355,16 @@
     <element xsi:type="archimate:TechnologyFunction" name="Indexing" id="id-3b55f537924b4f29927370c8788086a9"/>
     <element xsi:type="archimate:Equipment" name="Physical Server" id="id-461adfd4bb7444f1ab8d0f8dd42958cf"/>
     <element xsi:type="archimate:Equipment" id="id-5a56f1bd207945ceab9602942fa78c18"/>
-    <element xsi:type="archimate:TechnologyFunction" name="Monitoring" id="id-49c47d5d1ee543a2ad9dee3caf99f87d"/>
+    <element xsi:type="archimate:TechnologyFunction" name="Resourcen-Überwachung" id="id-49c47d5d1ee543a2ad9dee3caf99f87d"/>
     <element xsi:type="archimate:TechnologyService" name="Tuwel Frontend" id="id-27cfc4fd029243a9a073dfc7aa836b5d"/>
-    <element xsi:type="archimate:TechnologyService" name="Ai Service" id="id-c0dc0ff5df2c40459799124511688cf0"/>
-    <element xsi:type="archimate:Equipment" name="Physical High resource GPU server" id="id-fd1e0722c258435980fe7dfa359616f1"/>
-    <element xsi:type="archimate:Equipment" name="Physical Database Server" id="id-ccd98faa4c574e269ea7c7517cbb518b"/>
-    <element xsi:type="archimate:Equipment" name="Physical TUWEL Hosting Server" id="id-11c68a288a774025a2a5ad579cc837c3"/>
-    <element xsi:type="archimate:Equipment" name="Phisical High resource Server" id="id-e752eef0ea134ebdb1f67a25f2bc23cf"/>
-    <element xsi:type="archimate:Material" name="Fibre Cable" id="id-bd874ae4953642d7af4849bb3c2392e9"/>
-    <element xsi:type="archimate:Equipment" name="Swicth" id="id-8448ea6c17124fc781269559274f4d99"/>
-    <element xsi:type="archimate:Material" name="Cat Cable" id="id-99922195476a4aec8815f6c578b5e061"/>
+    <element xsi:type="archimate:TechnologyService" name="KI-Dienst" id="id-c0dc0ff5df2c40459799124511688cf0"/>
+    <element xsi:type="archimate:Equipment" name="Physischer Hochleistungs-GPU-Server" id="id-fd1e0722c258435980fe7dfa359616f1"/>
+    <element xsi:type="archimate:Equipment" name="Physischer Datenbank-server" id="id-ccd98faa4c574e269ea7c7517cbb518b"/>
+    <element xsi:type="archimate:Equipment" name="Physischer TUWEL-Hosting-Server" id="id-11c68a288a774025a2a5ad579cc837c3"/>
+    <element xsi:type="archimate:Equipment" name="Physicher Hochleistungsserver" id="id-e752eef0ea134ebdb1f67a25f2bc23cf"/>
+    <element xsi:type="archimate:Material" name="Glasfaserkabel" id="id-bd874ae4953642d7af4849bb3c2392e9"/>
+    <element xsi:type="archimate:Equipment" name="Swicth (Netwerkverteiler)" id="id-8448ea6c17124fc781269559274f4d99"/>
+    <element xsi:type="archimate:Material" name="Netzwerkkabel" id="id-99922195476a4aec8815f6c578b5e061"/>
     <element xsi:type="archimate:TechnologyService" id="id-cde3aa1ea95148b993f959b4b7d11b78"/>
     <element xsi:type="archimate:TechnologyService" name="AI Service" id="id-61ff9bce6fbe4b84b9b0c6bb9f16a541"/>
     <element xsi:type="archimate:TechnologyService" name="Knowladge Managment Service" id="id-e722d5a8c2324140b6c968982084e820"/>
@@ -402,20 +402,20 @@
   </folder>
   <folder name="Implementation &amp; Migration" id="id-42bc745d2a5548019c88f82f9aa263fd" type="implementation_migration">
     <element xsi:type="archimate:Plateau" name="Ausgangsarchitektur" id="id-4c327dd5320449c08840245bc45ef1b0"/>
-    <element xsi:type="archimate:Gap" name="Knowledge how to Implement" id="id-71819acda0024676bd4e034d7be97f3b"/>
+    <element xsi:type="archimate:Gap" name="Fehlendes Wissen zur Umsetzung" id="id-71819acda0024676bd4e034d7be97f3b"/>
     <element xsi:type="archimate:Plateau" name="Strategische Planung abgeschlossen " id="id-008fef3dffa94d238d2e70d0022569d9"/>
     <element xsi:type="archimate:Plateau" name="Provide Infrastructure " id="id-5a3d7cf267de49d295758401fd703214"/>
     <element xsi:type="archimate:Plateau" name="KI-Model entwickelt und TUWEL erweitert " id="id-c039751696234dc09c33052630971fa0"/>
-    <element xsi:type="archimate:Plateau" name="Teilweise Einführung " id="id-911c3607d732414a82551a5e0a856dc6"/>
+    <element xsi:type="archimate:Plateau" name="Teilweise eingeführt" id="id-911c3607d732414a82551a5e0a856dc6"/>
     <element xsi:type="archimate:Plateau" name="Zielarchitektur" id="id-90eced4256894635a61918a60f2cb42d"/>
     <element xsi:type="archimate:Deliverable" name="Projektplan" id="id-38764b8a611a4603a29d0bf085a65750"/>
     <element xsi:type="archimate:Deliverable" name="Technische Architektur" id="id-1fc8b9c98d184cf7b523a5f409b8b4cb"/>
     <element xsi:type="archimate:Deliverable" name="Deliverable (copy)" id="id-97f69c78c7054aeb85757b3fe240dfe3"/>
-    <element xsi:type="archimate:Gap" name="Fehlende Infrastruktur und KI" id="id-064219b59f4641b9b209fa169f3c3ed8"/>
+    <element xsi:type="archimate:Gap" name="Fehlen de technische Infrastruktur und KI-Funktion" id="id-064219b59f4641b9b209fa169f3c3ed8"/>
     <element xsi:type="archimate:Deliverable" name="Infrastruktur" id="id-7b694f9f54ef4cd08771fb2b90cd2967"/>
     <element xsi:type="archimate:Deliverable" name="TUWEL Erweiterung (Accesspoints)" id="id-55ad98a6c00c4af1934d9bf23982b73d"/>
-    <element xsi:type="archimate:Gap" name="Einführung der Lösung" id="id-eb35745bf1524a23b1174f0321a9be54"/>
-    <element xsi:type="archimate:Gap" name="Verbesserung und vollständige Implementation" id="id-f36ac4ee9e854957ab979e594c389afd"/>
+    <element xsi:type="archimate:Gap" name="Teilweise Einführung der Lösung" id="id-eb35745bf1524a23b1174f0321a9be54"/>
+    <element xsi:type="archimate:Gap" name="Fehlende Optimierung und finale Integration" id="id-f36ac4ee9e854957ab979e594c389afd"/>
     <element xsi:type="archimate:Deliverable" name="AI System" id="id-66a9d75b701e4686bcb2669346c5e163"/>
     <element xsi:type="archimate:Deliverable" name="Feedback" id="id-fae6ee396bcf47f4b07c4da8db4c36f5"/>
     <element xsi:type="archimate:Deliverable" name="Optimiertes AI System" id="id-8d8a8c09bc3e4e8db4e8758312b40550"/>
@@ -2025,7 +2025,7 @@
         <bounds x="264" y="348" width="116" height="49"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a50d0172db16478d9eed77e0841fdcf6" targetConnections="id-555329e8d56f406b80db3465d67ba27e id-3bd1a9d741af4debbc2e34c3b2c24d1b" archimateElement="id-064219b59f4641b9b209fa169f3c3ed8">
-        <bounds x="444" y="192" width="120" height="55"/>
+        <bounds x="408" y="183" width="156" height="73"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-e4fb0766693144dbbace6a2176fd6a1d" targetConnections="id-2af09aba964b4359925ce3aa78f6cae3 id-ce7630f6804e4c0c92a2d7764d830d33" archimateElement="id-7b694f9f54ef4cd08771fb2b90cd2967">
         <bounds x="468" y="348" width="121" height="49"/>
@@ -2888,7 +2888,7 @@
             <bounds x="12" y="36" width="120" height="49"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-9656ddc6dfd94dd09ad4a8e5f63b6444" targetConnections="id-4fafabebf50e4ff291ed0339d8c2ab26" fillColor="#80ffff" archimateElement="id-502a74e12fd94b2b974a66150b8f4c91">
-            <bounds x="12" y="96" width="120" height="55"/>
+            <bounds x="12" y="96" width="120" height="60"/>
           </child>
           <child xsi:type="archimate:DiagramObject" id="id-b2622371678b4d70a712850cb038024b" fillColor="#80ffff" archimateElement="id-d179405e1c46435dbed26f2338a7c9c4">
             <bounds x="12" y="168" width="120" height="55"/>
@@ -2941,7 +2941,7 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-0e16cd93893041aa9e676fbc2990bcb2" source="id-74bdd92bcb484a009bf0e67db8ce49cd" target="id-7d55668b00ab47d7ae7fb33c7812307f" archimateRelationship="id-aaa7593f1c2e43909055584a9c9e4700"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-3601cf5ad0804aeda80102d9ffb5fb29" targetConnections="id-aba3a638e1704f418bb0fd0afc4a6c3e id-bc5ba7d721b24314bfe229a3a7c6f290 id-a71cb92741fd45d4b932b831a4f2093c id-434f0cfbbbe7484c9199193f0537e12c" fillColor="#80ffff" archimateElement="id-79e87d04ed404f6e9fcf52a5854651b3">
-          <bounds x="291" y="528" width="121" height="49"/>
+          <bounds x="276" y="528" width="137" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-3524e2a76118416e8cb65ca74ba44790" source="id-3601cf5ad0804aeda80102d9ffb5fb29" target="id-7d55668b00ab47d7ae7fb33c7812307f" archimateRelationship="id-9db721d7b2ae4c33bf3f5e20f65f7cdf">
             <bendpoint startX="489" endX="-5" endY="300"/>
           </sourceConnection>
@@ -2993,20 +2993,20 @@
           <sourceConnection xsi:type="archimate:Connection" id="id-0606babdf94a48cb8aca1222cfcf43fa" source="id-2d55445b6eb84396ac82e9304e2765d4" target="id-84c50bc887094cd9b7045d02ebd7aba8" archimateRelationship="id-12d9c997026c47ddabeea976a0c5effd"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-171a1b794df34313b609e1da05beead3" targetConnections="id-10f3dae22df9444ab372b366cebec628 id-337381d42448438a97303c70a8f1a5ca" fillColor="#00ff00" archimateElement="id-bd874ae4953642d7af4849bb3c2392e9">
-          <bounds x="456" y="612" width="120" height="49"/>
+          <bounds x="481" y="612" width="120" height="49"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a798ab1343d347748a917b2886b1df7e" targetConnections="id-dc4f0ef117b64fcdbce57c19a613807f" fillColor="#80ffff" archimateElement="id-8448ea6c17124fc781269559274f4d99">
-          <bounds x="292" y="612" width="120" height="49"/>
+          <bounds x="275" y="612" width="140" height="49"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-434f0cfbbbe7484c9199193f0537e12c" source="id-a798ab1343d347748a917b2886b1df7e" target="id-3601cf5ad0804aeda80102d9ffb5fb29" archimateRelationship="id-30f264c3e00c48deaae5711e94461a15"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-337381d42448438a97303c70a8f1a5ca" source="id-a798ab1343d347748a917b2886b1df7e" target="id-171a1b794df34313b609e1da05beead3" archimateRelationship="id-b2184d9083a94b3ab4ee3064d3c087d6"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-fdaab33f6b4544179a75db94a2aeab14" source="id-a798ab1343d347748a917b2886b1df7e" target="id-74937a0cd3ac40859337f9c00183a41a" archimateRelationship="id-df9846ac03ba4671838170f291ce200c"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-74937a0cd3ac40859337f9c00183a41a" targetConnections="id-63b31b5016a1479dbb5d6605e2674aee id-fdaab33f6b4544179a75db94a2aeab14" fillColor="#80ffff" archimateElement="id-99922195476a4aec8815f6c578b5e061">
-          <bounds x="120" y="612" width="120" height="49"/>
+          <bounds x="97" y="612" width="120" height="49"/>
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-4941a60805cd43ccb89a9706f64b2478" targetConnections="id-57cb9cdf7abc4b6296ac54dcfc463f0c" archimateElement="id-f5d08596a0e74ff09d064fc1ed2cd60b">
-        <bounds x="1032" y="444" width="132" height="61"/>
+        <bounds x="1032" y="444" width="144" height="61"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-9eb93e71873e45e691e4481ad57a7ac0" targetConnections="id-0e74c7c1b1f641728bed64f2e6e95564" archimateElement="id-5acb28f8fd304fb9bcf4899bc0d7a143">
         <bounds x="1248" y="444" width="132" height="61"/>
