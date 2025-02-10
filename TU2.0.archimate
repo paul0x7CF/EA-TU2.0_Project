@@ -402,20 +402,20 @@
   </folder>
   <folder name="Implementation &amp; Migration" id="id-42bc745d2a5548019c88f82f9aa263fd" type="implementation_migration">
     <element xsi:type="archimate:Plateau" name="Ausgangsarchitektur" id="id-4c327dd5320449c08840245bc45ef1b0"/>
-    <element xsi:type="archimate:Gap" name="Knowledge how to Implement" id="id-71819acda0024676bd4e034d7be97f3b"/>
+    <element xsi:type="archimate:Gap" name="Fehlendes Wissen zur Umsetzung" id="id-71819acda0024676bd4e034d7be97f3b"/>
     <element xsi:type="archimate:Plateau" name="Strategische Planung abgeschlossen " id="id-008fef3dffa94d238d2e70d0022569d9"/>
     <element xsi:type="archimate:Plateau" name="Provide Infrastructure " id="id-5a3d7cf267de49d295758401fd703214"/>
     <element xsi:type="archimate:Plateau" name="KI-Model entwickelt und TUWEL erweitert " id="id-c039751696234dc09c33052630971fa0"/>
-    <element xsi:type="archimate:Plateau" name="Teilweise Einführung " id="id-911c3607d732414a82551a5e0a856dc6"/>
+    <element xsi:type="archimate:Plateau" name="Teilweise eingeführt" id="id-911c3607d732414a82551a5e0a856dc6"/>
     <element xsi:type="archimate:Plateau" name="Zielarchitektur" id="id-90eced4256894635a61918a60f2cb42d"/>
     <element xsi:type="archimate:Deliverable" name="Projektplan" id="id-38764b8a611a4603a29d0bf085a65750"/>
     <element xsi:type="archimate:Deliverable" name="Technische Architektur" id="id-1fc8b9c98d184cf7b523a5f409b8b4cb"/>
     <element xsi:type="archimate:Deliverable" name="Deliverable (copy)" id="id-97f69c78c7054aeb85757b3fe240dfe3"/>
-    <element xsi:type="archimate:Gap" name="Fehlende Infrastruktur und KI" id="id-064219b59f4641b9b209fa169f3c3ed8"/>
+    <element xsi:type="archimate:Gap" name="Fehlen de technische Infrastruktur und KI-Funktion" id="id-064219b59f4641b9b209fa169f3c3ed8"/>
     <element xsi:type="archimate:Deliverable" name="Infrastruktur" id="id-7b694f9f54ef4cd08771fb2b90cd2967"/>
     <element xsi:type="archimate:Deliverable" name="TUWEL Erweiterung (Accesspoints)" id="id-55ad98a6c00c4af1934d9bf23982b73d"/>
-    <element xsi:type="archimate:Gap" name="Einführung der Lösung" id="id-eb35745bf1524a23b1174f0321a9be54"/>
-    <element xsi:type="archimate:Gap" name="Verbesserung und vollständige Implementation" id="id-f36ac4ee9e854957ab979e594c389afd"/>
+    <element xsi:type="archimate:Gap" name="Teilweise Einführung der Lösung" id="id-eb35745bf1524a23b1174f0321a9be54"/>
+    <element xsi:type="archimate:Gap" name="Fehlende Optimierung und finale Integration" id="id-f36ac4ee9e854957ab979e594c389afd"/>
     <element xsi:type="archimate:Deliverable" name="AI System" id="id-66a9d75b701e4686bcb2669346c5e163"/>
     <element xsi:type="archimate:Deliverable" name="Feedback" id="id-fae6ee396bcf47f4b07c4da8db4c36f5"/>
     <element xsi:type="archimate:Deliverable" name="Optimiertes AI System" id="id-8d8a8c09bc3e4e8db4e8758312b40550"/>
@@ -2025,7 +2025,7 @@
         <bounds x="264" y="348" width="116" height="49"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-a50d0172db16478d9eed77e0841fdcf6" targetConnections="id-555329e8d56f406b80db3465d67ba27e id-3bd1a9d741af4debbc2e34c3b2c24d1b" archimateElement="id-064219b59f4641b9b209fa169f3c3ed8">
-        <bounds x="444" y="192" width="120" height="55"/>
+        <bounds x="408" y="183" width="156" height="73"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-e4fb0766693144dbbace6a2176fd6a1d" targetConnections="id-2af09aba964b4359925ce3aa78f6cae3 id-ce7630f6804e4c0c92a2d7764d830d33" archimateElement="id-7b694f9f54ef4cd08771fb2b90cd2967">
         <bounds x="468" y="348" width="121" height="49"/>
