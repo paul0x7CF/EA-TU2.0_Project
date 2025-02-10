@@ -125,7 +125,7 @@
     <element xsi:type="archimate:BusinessProcess" name="Update AI Knowledge Base (copy)" id="id-7249611900cd482aa465ca9327add926"/>
     <element xsi:type="archimate:BusinessEvent" name="Schüler hat intelligentes KI-Tutoring ausgewählt" id="id-e869737c09094d77a9a2e51192a404ca"/>
     <element xsi:type="archimate:BusinessActor" name="AI Tutoring System (copy)" id="id-419b302eac334b2c9dcbc700c8bbc1a3"/>
-    <element xsi:type="archimate:BusinessProcess" name="Intelligentes KI Tutor System" id="id-6d54267761eb47f0bb734d158e12144d"/>
+    <element xsi:type="archimate:BusinessProcess" name="Intelligentes KI-Lernsystem" id="id-6d54267761eb47f0bb734d158e12144d"/>
     <element xsi:type="archimate:BusinessProcess" name="Lern-Thema auswählen" id="id-58fca83efb294d2c9b625d044bede695"/>
     <element xsi:type="archimate:BusinessProcess" name="Lern-Format auswählen" id="id-8d8198f913254bf9ae3cc54aabba023d"/>
     <element xsi:type="archimate:BusinessProcess" name="Nutzer generiert benutzerspezifisches Lernmaterial" id="id-7a8716194f1846b29316825d9f09e3c7"/>
@@ -268,7 +268,7 @@
     <element xsi:type="archimate:ApplicationService" name="Authentication service (copy)" id="id-06856d701e66423bbe302c99daad2346"/>
     <element xsi:type="archimate:ApplicationService" name="Authorization service (copy)" id="id-7f270722942f4ec5afe6dc4ca69da2fb"/>
     <element xsi:type="archimate:ApplicationInterface" name="TUWEL" id="id-47fd0439f0ac47408bcce46d26750b34"/>
-    <element xsi:type="archimate:ApplicationService" name="Intelligentes KI Tutor System" id="id-99f0a95a9de646c19a151162f6833b4b"/>
+    <element xsi:type="archimate:ApplicationService" name="Intelligentes KI-Lernsystem" id="id-99f0a95a9de646c19a151162f6833b4b"/>
     <element xsi:type="archimate:ApplicationFunction" name="Give Feedback" id="id-3de0f54369b54945a120cb329e1d9f61"/>
     <element xsi:type="archimate:ApplicationService" name="Lernunterstützungs-Chatbot" id="id-6bb4da1b12a543d6a007152e9f992ccb"/>
     <element xsi:type="archimate:ApplicationService" name="Wissensmanagement-Dienst" id="id-928f1a0fba9e4e48a1bfa079f41ff22e"/>
