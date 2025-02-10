@@ -379,7 +379,7 @@
     <element xsi:type="archimate:Goal" name="Reduzierung Personalkosten" id="id-a5297dd46de34c3890a703119545df47"/>
     <element xsi:type="archimate:Principle" name="Principle" id="id-36d53110412f4c0bae354fe02b0c9de5"/>
     <element xsi:type="archimate:Requirement" name="Requirement" id="id-c8044dca3bbc43389b27888b590d427f"/>
-    <element xsi:type="archimate:Goal" name="Verringerung des Verwaltungsaufwands für Professoren" id="id-37963150649b483b8132675f78bd24f3"/>
+    <element xsi:type="archimate:Goal" name="Reduzierung des Verwaltungsaufwands für Professoren" id="id-37963150649b483b8132675f78bd24f3"/>
     <element xsi:type="archimate:Principle" name="Datenqualität und Governance" id="id-28034194167a4f738318906a12489f25"/>
     <element xsi:type="archimate:Principle" name="Interoperabilität und Integration" id="id-7ca1f128d5b544358ca2d7747039bcf9"/>
     <element xsi:type="archimate:Principle" name="Nutzerzentrierung" id="id-c5bc5eda5e194135b4f4db736dd0fe05"/>
@@ -395,7 +395,7 @@
     <element xsi:type="archimate:Driver" name="Lehrergebnis" id="id-b792710ef2304513989d1d637d8a4951"/>
     <element xsi:type="archimate:Driver" name="Studienerfahrung" id="id-2d2ad689664f46158cc2c85e9677f8c5"/>
     <element xsi:type="archimate:Driver" name="Informationsqualität des KI-Systems" id="id-ffc295bb629c4172b6febca407460bff"/>
-    <element xsi:type="archimate:Goal" name="Verbesserung der Lehrsqualität und -methoden" id="id-c9c9824bb7e74d8b82fca936064d0c58"/>
+    <element xsi:type="archimate:Goal" name="Verbesserung der Lehrqualität und -methoden" id="id-c9c9824bb7e74d8b82fca936064d0c58"/>
     <element xsi:type="archimate:Assessment" name="Lehrergebnisse und Studentenerfahrung können durch KI verbessert werden" id="id-0c0ec878658748d4bbcd327b17d02e23"/>
     <element xsi:type="archimate:Outcome" name="Verbesserte Lehrqualität und -methoden durch KI-System" id="id-3c7f7540e5564cce8acc097eed14ea17"/>
     <element xsi:type="archimate:Goal" name="Bewahrung von hoher Informationsqualität in KI-Systemen" id="id-5c0653d6d34d4b72987e26bab87109dc"/>

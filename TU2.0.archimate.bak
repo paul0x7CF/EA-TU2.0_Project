@@ -417,11 +417,11 @@
     <element xsi:type="archimate:Deliverable" name="TUWEL Erweiterung " id="id-55ad98a6c00c4af1934d9bf23982b73d"/>
     <element xsi:type="archimate:Gap" name="Teilweise Einführung der Lösung" id="id-eb35745bf1524a23b1174f0321a9be54"/>
     <element xsi:type="archimate:Gap" name="Fehlende Optimierung und finale Integration" id="id-f36ac4ee9e854957ab979e594c389afd"/>
-    <element xsi:type="archimate:Deliverable" name="AI System" id="id-66a9d75b701e4686bcb2669346c5e163"/>
+    <element xsi:type="archimate:Deliverable" name="KI System" id="id-66a9d75b701e4686bcb2669346c5e163"/>
     <element xsi:type="archimate:Deliverable" name="Feedback" id="id-fae6ee396bcf47f4b07c4da8db4c36f5"/>
     <element xsi:type="archimate:Deliverable" name="Optimiertes AI System" id="id-8d8a8c09bc3e4e8db4e8758312b40550"/>
-    <element xsi:type="archimate:Deliverable" name="Learning Support Chatbot" id="id-bd9f1343a46b43bda3a7652eecaa7cd5"/>
-    <element xsi:type="archimate:Deliverable" name="Intelligent AI tutoring System " id="id-c8c2ed52704e43f88cb812fec1e76031"/>
+    <element xsi:type="archimate:Deliverable" name="Lernunterstützungs-Chatbot" id="id-bd9f1343a46b43bda3a7652eecaa7cd5"/>
+    <element xsi:type="archimate:Deliverable" name="Intelligentes KI-Lernsystem" id="id-c8c2ed52704e43f88cb812fec1e76031"/>
     <element xsi:type="archimate:ImplementationEvent" name="Projekt genehmigt" id="id-a38407f5bf654f97af7bca494c6b4327"/>
     <element xsi:type="archimate:Deliverable" name="Projektbeauftragung" id="id-24ebc940671a4a1c9de80c24e56f2bd0"/>
     <element xsi:type="archimate:WorkPackage" name="TU KI-Integration" id="id-b6c6db0c5bae4c4bbafd98e367d5ba33"/>
