@@ -414,7 +414,7 @@
     <element xsi:type="archimate:Deliverable" name="Deliverable (copy)" id="id-97f69c78c7054aeb85757b3fe240dfe3"/>
     <element xsi:type="archimate:Gap" name="Fehlen de technische Infrastruktur und KI-Funktion" id="id-064219b59f4641b9b209fa169f3c3ed8"/>
     <element xsi:type="archimate:Deliverable" name="Infrastruktur" id="id-7b694f9f54ef4cd08771fb2b90cd2967"/>
-    <element xsi:type="archimate:Deliverable" name="TUWEL Erweiterung (Accesspoints)" id="id-55ad98a6c00c4af1934d9bf23982b73d"/>
+    <element xsi:type="archimate:Deliverable" name="TUWEL Erweiterung " id="id-55ad98a6c00c4af1934d9bf23982b73d"/>
     <element xsi:type="archimate:Gap" name="Teilweise Einführung der Lösung" id="id-eb35745bf1524a23b1174f0321a9be54"/>
     <element xsi:type="archimate:Gap" name="Fehlende Optimierung und finale Integration" id="id-f36ac4ee9e854957ab979e594c389afd"/>
     <element xsi:type="archimate:Deliverable" name="AI System" id="id-66a9d75b701e4686bcb2669346c5e163"/>
