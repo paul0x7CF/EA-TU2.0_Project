@@ -391,13 +391,13 @@
     <element xsi:type="archimate:Driver" name="Kosten- und Zeiteffizienz" id="id-0e4b67d314ed4adaba528b43ec8985d1"/>
     <element xsi:type="archimate:Assessment" name="Hoher administrativer Zeitaufwand des Lehrpersonals für Kurse" id="id-f735d9bcc0d841fa98c0ef80fce7fc3b"/>
     <element xsi:type="archimate:Assessment" name="Hohe Personalkosten" id="id-fbd8350c61a541038b1affbe57f99ff1"/>
-    <element xsi:type="archimate:Outcome" name="Lehrpersonal hat mehr Zeit, sich auf die eigentliche Forschungsarbeit zu konzentrieren" id="id-f2b7409f8ad0462d9840efe7d00d8bd4"/>
+    <element xsi:type="archimate:Outcome" name="Lehrpersonal hat mehr Zeit sich auf die eigentliche Forschungsarbeit zu konzentrieren" id="id-f2b7409f8ad0462d9840efe7d00d8bd4"/>
     <element xsi:type="archimate:Driver" name="Lehrergebnis" id="id-b792710ef2304513989d1d637d8a4951"/>
     <element xsi:type="archimate:Driver" name="Studienerfahrung" id="id-2d2ad689664f46158cc2c85e9677f8c5"/>
     <element xsi:type="archimate:Driver" name="Informationsqualität des KI-Systems" id="id-ffc295bb629c4172b6febca407460bff"/>
     <element xsi:type="archimate:Goal" name="Verbesserung der Lehrsqualität und -methoden" id="id-c9c9824bb7e74d8b82fca936064d0c58"/>
     <element xsi:type="archimate:Assessment" name="Lehrergebnisse und Studentenerfahrung können durch KI verbessert werden" id="id-0c0ec878658748d4bbcd327b17d02e23"/>
-    <element xsi:type="archimate:Outcome" name="Verbesserte Bildungsqualität und -methoden durch KI-System" id="id-3c7f7540e5564cce8acc097eed14ea17"/>
+    <element xsi:type="archimate:Outcome" name="Verbesserte Lehrqualität und -methoden durch KI-System" id="id-3c7f7540e5564cce8acc097eed14ea17"/>
     <element xsi:type="archimate:Goal" name="Bewahrung von hoher Informationsqualität in KI-Systemen" id="id-5c0653d6d34d4b72987e26bab87109dc"/>
     <element xsi:type="archimate:Stakeholder" name="IT-Verwaltung" id="id-b82b6ba8772a4338a0bb70aab6c308ce"/>
   </folder>
@@ -2868,18 +2868,14 @@
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" name="4-Technology-RAG" id="id-f7e94f461ac14deaad8bb2028d0e501d">
       <child xsi:type="archimate:DiagramObject" id="id-efc1193265b94c398e4219b8568784ba" fillColor="#80ff00" archimateElement="id-ad68f542b74743eba415002d225474cf">
-        <bounds x="1701" y="852" width="126" height="61"/>
+        <bounds x="1200" y="1272" width="126" height="58"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c3a5c6b7a90c49c4a95c93893aa16269" source="id-efc1193265b94c398e4219b8568784ba" target="id-5695d4b56a7a4b1fb79e0c1c8ed12611" archimateRelationship="id-73aaac20c70b4c84a07fd1aae4e2024c"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-5695d4b56a7a4b1fb79e0c1c8ed12611" targetConnections="id-c3a5c6b7a90c49c4a95c93893aa16269" fillColor="#80ff00" archimateElement="id-4a0f6942fbed4d5c9f26dc1d6a423f8e">
-        <bounds x="1704" y="768" width="120" height="55"/>
+        <bounds x="1020" y="1275" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-bda4019cf1824c6fa8355c464e62ebaa" source="id-5695d4b56a7a4b1fb79e0c1c8ed12611" target="id-7d55668b00ab47d7ae7fb33c7812307f" archimateRelationship="id-3c9e69877a2040d6bef06fa22dfb2cd1"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-62dfd74c8e6f44d5903f78be4d4eae76" source="id-5695d4b56a7a4b1fb79e0c1c8ed12611" target="id-8d116e73dd414aedbb58a9d3f60e9843" archimateRelationship="id-c88aa200afdc4ad397ce64ac03c318b3">
-          <bendpoint startX="-84" startY="21" endX="743" endY="24"/>
-          <bendpoint startX="-84" startY="153" endX="743" endY="156"/>
-          <bendpoint startX="-204" startY="153" endX="623" endY="156"/>
-          <bendpoint startX="-720" startY="153" endX="107" endY="156"/>
-          <bendpoint startX="-720" startY="-15" endX="107" endY="-12"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-6ae9c8996af248b3a9409d6b1dac022b" source="id-5695d4b56a7a4b1fb79e0c1c8ed12611" target="id-8d116e73dd414aedbb58a9d3f60e9843" archimateRelationship="id-c88aa200afdc4ad397ce64ac03c318b3">
+          <bendpoint startX="-48" startY="-498" endX="107" endY="12"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-88b4491a0e64481e8b8047bb9eb199d1" fillColor="#80ffff" archimateElement="id-0e85c178c0164f62b9ff2e41d96ab1be">
@@ -2978,7 +2974,7 @@
           <bounds x="481" y="51" width="120" height="48"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-2d5fe458c06e449abd05f9b57c709f20" source="id-353b3c548b404a2d94029fb2a45dc861" target="id-7d55668b00ab47d7ae7fb33c7812307f" archimateRelationship="id-07c340377c7744c08efb41c4ce63af46"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-8d116e73dd414aedbb58a9d3f60e9843" targetConnections="id-e38bab4876cb4d05a1c9bc12680fdd62 id-d994f78839be45eb98c935c3a99f8ec0 id-62dfd74c8e6f44d5903f78be4d4eae76" fillColor="#00ff00" archimateElement="id-aaa363982db04c8faebfdd6e3a037484">
+        <child xsi:type="archimate:DiagramObject" id="id-8d116e73dd414aedbb58a9d3f60e9843" targetConnections="id-e38bab4876cb4d05a1c9bc12680fdd62 id-d994f78839be45eb98c935c3a99f8ec0 id-6ae9c8996af248b3a9409d6b1dac022b" fillColor="#00ff00" archimateElement="id-aaa363982db04c8faebfdd6e3a037484">
           <bounds x="481" y="150" width="145" height="181"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-9b5db17ea03243ffbcc3b3d3c73a0528" source="id-8d116e73dd414aedbb58a9d3f60e9843" target="id-353b3c548b404a2d94029fb2a45dc861" archimateRelationship="id-4aee419a82174597b5ceb57d40b16820"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-a71cb92741fd45d4b932b831a4f2093c" source="id-8d116e73dd414aedbb58a9d3f60e9843" target="id-3601cf5ad0804aeda80102d9ffb5fb29" archimateRelationship="id-e9582cdd21554ca89a1c460ebdfeef40">
